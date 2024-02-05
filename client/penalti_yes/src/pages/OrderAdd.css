@@ -1,0 +1,79 @@
+.header_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: grey;
+    min-height: 50px;
+    padding: 0 50px;
+}
+.link{
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+.order_body{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 40%;
+    min-width: 400px;
+    min-height: 300px;
+    background-color: gray;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logOutBtn{
+    margin: 0 10px;
+    padding: 4px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+input button{
+    height: 30px;
+}
+.btn_add{
+    width: 200px;
+    height:30px
+}
+@media screen and (max-width: 500px){
+    .Header{
+        padding: 0 10px;
+    }
+    .order_body{
+        min-width: 320px;
+    }
+  }
+  @media screen and (max-width: 320px){
+    .Header{
+        padding: 0 0;
+    }
+    .order_body{
+        min-width: 250px;
+    }
+    input{
+        width: 200px;
+    }
+    .link{
+        margin: 0;
+    }
+    .logOutBtn{
+        margin: 0;
+    }
+  }

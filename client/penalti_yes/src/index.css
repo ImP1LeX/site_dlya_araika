@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.phoneInput{
+  width: 300px;
+}
+.btn_comment{
+  height: 30px;
+}
+@media screen and (max-width: 500px){
+  *{
+    font-size: 12px;
+  }
+}
